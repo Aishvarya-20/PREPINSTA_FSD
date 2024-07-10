@@ -1,0 +1,65 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .bouncing-balls {
+    text-align: center;
+  }
+  
+  .ball1  {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    background-color: hwb(0 10% 24%);
+    animation: bounce 1s infinite;
+    position: relative; 
+    top: 50%; 
+    left: 50%; 
+  }
+  .ball2  {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    background-color: rgb(255, 248, 248);
+    animation: bounce 1s infinite;
+    position: relative; 
+    top: 50%; 
+    left: 50%; 
+  }
+  .ball3  {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    background-color: #0b0b0b;
+    animation: bounce 1s infinite;
+    position: relative; 
+    top: 50%; 
+    left: 50%; 
+  }
+  .ball4  {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    background-color: hwb(196 39% 7%);
+    animation: bounce 1s infinite;
+    position: relative; 
+    top: 50%; 
+    left: 50%; 
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: translateY(-20px) scale(1.2);
+    }
+    100% {
+      transform: translateY(0) scale(1);
+    }
+  }

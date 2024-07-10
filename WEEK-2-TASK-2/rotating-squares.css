@@ -1,0 +1,32 @@
+body {
+    background-color: hwb(0 92% 6%);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+.loader {
+    width: 40px;
+    height: 40px;
+    margin: 40px auto;
+  }
+  
+  .square {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    float: left;
+    margin: 5px;
+    animation: rotate 2s infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
