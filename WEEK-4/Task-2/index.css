@@ -1,0 +1,50 @@
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  label {
+    grid-column: 1;
+  }
+  
+  input, select {
+    grid-column: 2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .search-input {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-input::before {
+    content: '\f002'; 
+    font-family: 'Font Awesome 5 Free';
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .book-display {
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .book-title {
+    grid-column: 1;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .book-author {
+    grid-column: 2;
+    font-size: 16px;
+    color: #666;
+  }
